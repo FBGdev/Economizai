@@ -112,7 +112,7 @@ Criar a principal funcionalidade do sistema.
 
 ### 🟢 7. Dashboard
 
-**Responsáveis:** 1 iniciante  
+**Responsáveis:** 1 iniciante + 1 Dev Experiente
 
 Criar:
 
