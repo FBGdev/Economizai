@@ -4,10 +4,35 @@
   <meta charset="UTF-8">
   <title>Economizou</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> 
+
 </head>
-<body onload="verificarLogin()" class="bg-gray-100">
-  <h1 class="text-3xl font-bold text-green-600 text-center mt-10">
-    Economizou 
-  </h1>
+<body onload="verificarLogin()" class="bg-gray-100 flex items-center justify-center min-h-screen">
+  <main class="container mx-auto p-4 bg-white rounded shadow-md w-full max-w-md border border-gray-300">
+    <form action="" class="space-y-4">
+      <img src="/docs/logos/logo 3.png" alt="Logo" class="w-20 h-20 mx-auto">
+      <h1 class="text-2xl font-bold text-center">Economizai</h1>
+      <div class="input-box relative mt-4 justify-content-center">
+        <br>
+        <input class="border border-gray-300 rounded py-2 px-4 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="email" id="email" name="email" required>
+        <i class='bx bx-envelope'></i>
+      </div>
+      <div class="input-box relative mt-4">
+        <br>
+        <input class="border border-gray-300 rounded py-2 px-4 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="senha" type="password" id="password" name="password" required>
+        <i class='bx bx-hide' id="togglePassword"></i>
+      </div>
+      <div class="flex items-center justify-between mt-4">
+        <input type="checkbox" id="remember" name="remember">
+        <label class="form-label" for="remember">Lembrar-me</label>
+        <a href="#" class="text-blue-500">Esqueci minha senha</a>
+      </div>
+      <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded justify-center">Login</button>
+      <div class="justify-content-center mt-4">
+        <p>Não tem uma conta? <a href="#" class="text-blue-500">Registrar-se</a></p>
+      </div>
+    </form>
+  </main>
 </body>
 </html>
