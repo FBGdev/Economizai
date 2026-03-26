@@ -69,14 +69,14 @@ function verificarLogin() {
   const usuario = localStorage.getItem("usuarioLogado")
 
   if (usuario === null) {
-    window.location.href = "login.html"
+    window.location.href = "index.html"
   }
 }
 
 function logout() {
 
   localStorage.removeItem("usuarioLogado")
-  window.location.href = "login.html"
+  window.location.href = "index.html"
 
 }
 
